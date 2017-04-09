@@ -185,10 +185,10 @@ sub main {
 	#close inputfile
 	close URLLIST;
 # run the wget (-i inputfile)
-#	system 'wget -p --span-hosts -E --convert-links --cookies=on --keep-session-cookies --save-cookies cookiejar.txt  --load-cookies "'.$authenticatedcookies.'" --header \"X-LJ-Auth:\ cookie\" -i URLLIST.txt';
+	system 'wget -p --span-hosts -E --convert-links --cookies=on --keep-session-cookies --save-cookies cookiejar.txt  --load-cookies "'.$authenticatedcookies.'" --header \"X-LJ-Auth:\ cookie\" -i URLLIST.txt';
 
 # run the pruner
-#	pruneCrap;
+	pruneCrap;
 	
 # make symlink to homepage
 	symlink('www.livejournal.com/inbox/index.html?page=1&view=all.html','index.html');
