@@ -17,7 +17,7 @@ LJInboxArchive is a perl script for making an archive of a Livejournal Inbox.  I
 
 3) In your directory for the archive, invoke the script: ./downloadLJinbox.pl  
 
-4) After it has completed, open a web browser.  Use the File Open method to open your $directory/www.livejournal.com/inbox/ .  The main page of your archive is the first one index.html?page=1&view=all.html
+4) After it has completed, open a web browser.  Use the File Open method to open your new directory; you will get a directory listing with a bunch of stuff in it.  Click on index.html to get to the main page of your archive.
 
 ## Making a Cookie File
 
