@@ -3,8 +3,8 @@ LJInboxArchive is a perl script for making an archive of a Livejournal Inbox.  I
 
 ## Requirements
 
-• perl (tested against v5.10.1)<br />
-• wget (tested against v1.12)<br />
+• perl (tested against v5.10.0 and v5.10.1)<br />
+• wget (tested against v1.11.4 and v1.12)<br />
 • a cookie file that wget can read ("Netscape-style") that has your authenticated LJ cookies (instructions below.)
 
 ## Usage
@@ -21,4 +21,4 @@ LJInboxArchive is a perl script for making an archive of a Livejournal Inbox.  I
 
 ## Making a Cookie File
 
-The most efficient way I know to make a wget-compatible cookie file is to use the <a href="https://addons.mozilla.org/en-US/firefox/addon/export-cookies/?src=userprofile">"Export Cookies" add-on to Firefox</a>.  Once you have Firefox with that add-on installed, you can log in to LJ as usual, and once logged in – it's okay if the ToS pop-up is there, just ignore it and don't click anything in the window – use the "Export Cookies..." item under the Firefox Tools menu. 
+The most efficient way I know to make a wget-compatible cookie file is to use a browser add-on for the job.  I'm partial to the <a href="https://addons.mozilla.org/en-US/firefox/addon/export-cookies/?src=userprofile">"Export Cookies" add-on to Firefox</a>, and mdlbear at dreamwidth recommends the <a href="https://chrome.google.com/webstore/detail/cookietxt-export/lopabhfecdfhgogdbojmaicoicjekelh?hl=en">"cookie.txt export" add-on for Chrome</a>.  Once you have your browser with the appropriate add-on installed, you can log in to LJ as usual, and once logged in – it's okay if the ToS pop-up is there, just ignore it and don't click anything in the window – use the add-on to export the cookies (in Firefox, the Tools menu &gt; "Export Cookies..." to save them to a file; in Chrome, click the toolbar button and the cut-and-paste the cookies into a text file).
